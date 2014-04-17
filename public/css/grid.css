@@ -1,0 +1,96 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  /* Removes padding behavior on widths */
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Targets all elements */
+[class*='col-'] {
+  float: left;
+  padding: 1.2em;
+}
+
+/* Floats last ".col-" to the right */
+[class*='col-']:last-of-type {
+  padding-right: 1.2em;
+  float: right;
+}
+
+/* Clearfix */
+.frame:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html { overflow-y: scroll; } /* Scrollbar fix */
+
+/* Main Widths */
+.col-12  {width: 100%;}
+.col-11  {width: 91.63%;}
+.col-10  {width: 83.3%;}
+.col-9   {width: 74.97%;}
+.col-8   {width: 66.64%;}
+.col-7   {width: 58.31%;}
+.col-6   {width: 50%;}
+.col-5   {width: 41.65%;}
+.col-4   {width: 33.33%;}
+.col-3   {width: 25%;}
+.col-2   {width: 16.6666666667%;}
+.col-1   {width: 8.33%;}
+
+/* Landscape mobile & down
+===============================*/
+@media (max-width: 480px) {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+  }
+
+
+    .col-4 {
+        width: 50%;
+    }
+
+    
+}
+
+/* Mobile to Tablet Portrait
+===============================*/
+
+@media (min-width: 480px) and (max-width: 880px) {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 { width: 100%; }
+
+    .col-4 {
+        width: 33.33%;
+    }
+    
+}
+
+

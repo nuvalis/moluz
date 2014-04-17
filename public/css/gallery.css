@@ -1,0 +1,52 @@
+.gallery {
+    
+    margin-top: 1em;
+    
+}
+
+.gallery li{
+    
+    display: inline-block;
+    float: left;
+    padding: 1em;
+    
+}
+
+.gallery figure {
+    
+    border: 5px solid #e4efe1;
+    
+}
+
+.gallery img {
+    
+    float: left;
+    max-width: 192px;
+
+    
+}
+
+.gallery figcaption {
+    
+    clear: both;
+    margin-top: -3.5em;
+    padding: 1em;
+    font-size: 0.6em;
+    width: 100%;
+    background: rgba(0,0,0, 0.6);
+    
+}
+
+.breadcrumb {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.breadcrumb li {
+    
+    display: inline-block;
+    float: left;
+    padding: 1em;
+    
+}

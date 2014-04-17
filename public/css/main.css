@@ -1,0 +1,332 @@
+@import url("gallery.css");
+@import url("source.css");
+@import url("forms.css");
+
+html, body {
+    background: #FAFAFA;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif; /* Check Index.tpl.php for Google API url */
+    font-size: 16px;
+    height: 100%;
+    font-weight: normal;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #7bae82;
+}
+
+a:hover {
+    color: #215957;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5 {
+    
+    color: #555;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+
+h1 { font-size: 3em; }
+
+h2 { font-size: 2.5em; }
+
+h3 { font-size: 2em; }
+
+h4 { font-size: 1.5em; }
+
+
+
+header, main, footer, figure, figcaption, nav {
+    
+    display: block;
+    float:left;
+    
+}
+
+pre {
+    overflow:auto;
+}
+
+nav {
+    
+}
+
+header {
+    min-height: 6em;
+    border-bottom: 1px solid #F0F0F0;
+    width: 100%;
+}
+
+main {
+    width: 100%; 
+}
+
+footer {
+    width: 100%;
+    padding: 1em;
+    margin-top: 2em;
+    height: 6em;
+    border-top: 1px solid #F0F0F0;
+    clear: both;
+}
+
+.logo img{
+    height: 4em;
+    margin: 0.5em;
+}
+
+.footer-logo img{
+    height: 4em;
+    margin: 2em;
+}
+
+
+#wrapper {
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 64em;
+}
+
+.left { float: left; }
+.right { float: right; }
+
+.active {
+    
+}
+
+.small {
+    font-size: 70%;
+    color: #888;
+}
+
+.back-link {
+    
+}
+
+.version {
+    padding: 1em;
+    text-align: center;
+    bottom: 0;
+    color: #AAA;
+    font-size: 70%;
+    display: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.notfound {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 1%;
+    color: #AAA;
+}
+
+.nothappy {
+    padding-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1%;
+    text-align: center;
+    font-size: 10em;
+    color: #AAA;
+    
+}
+
+.button {
+    
+    color: #c0ce7f;
+    margin: 1em;
+    min-width: 9em;
+    padding: 1em;
+    background: #215957;
+    border-radius: 4px;
+    border: solid 1px #7bae82;
+    box-shadow: 0 4px #082429;
+    
+}
+
+.button:hover, .button:focus {
+    
+    cursor: pointer;
+    padding: 1em;
+    background: #153b3e;
+    
+}
+
+.dump {
+    
+    padding: 2em;
+    margin: 2em;
+    
+}
+
+.active {
+    color: #082429;
+    
+}
+
+nav {
+    padding: 2em;
+}
+
+nav a {
+    
+    margin: 1em;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.me {
+    
+    width: 100%;
+    border-radius: 150px;
+    border: solid 15px rgba(179, 208, 183, 0.22);
+    
+}
+
+.footer-link {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1em;
+    font-weight: 100;
+    font-size: 70%;
+    color: #FAFAFA;
+}
+
+.middle {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.paginationbox a {
+    
+    padding: 1em;
+    
+    
+}
+
+article h2 {
+    margin: 0;
+}
+
+.filterby {
+    display: inline-block;
+    
+}
+
+.filterby li {
+    margin-left: 1em;
+    text-decoration: none;
+    float: left;
+    display: inline-block;
+    
+}
+
+.clear {
+    
+    clear: both;
+
+}
+
+.button-right {
+    
+    border-radius: 0 4px 4px 0;
+    background: #000;
+    color: #FFF;
+    border: 2px solid #000;
+    
+}
+
+.button-right:hover {
+    
+    background: #222;
+    cursor: pointer;
+    
+}
+
+.button-apply {
+    
+    border-radius: 4px;
+    background: #000;
+    color: #FFF;
+    border: 2px solid #000;
+    
+}
+
+.button-apply:hover, .button-apply:focus {
+    
+    background: #222;
+    cursor: pointer;
+    
+}
+
+.flash-message {
+    
+    max-width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 4px;
+    
+}
+
+.warning {
+    
+    background: #ffd800;
+    border: solid 1px #dea352;
+    color: #482900;
+    
+}
+
+.error {
+    
+    background: #f00;
+    border: solid 1px #ff9494;
+    color: #FFF;
+    
+}
+
+.success {
+    
+    background: #40c129;
+    border: solid 1px #b9ff94;
+    color: #FFF;
+    
+}
+
+.options-menu a {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.4em;
+    background: #000;
+    border-radius: 4px;
+    
+}
+
+.page-list a {
+    
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.4em;
+    background: #000;
+    border-radius: 4px;
+    
+}
